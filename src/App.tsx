@@ -11,7 +11,7 @@ const App = () => {
             {!started ? (
                 <StartScreen onStart={() => setStarted(true)} />
             ) : (
-                <Quiz setStarted={setStarted} />
+                <Quiz />
             )}
         </>
     );

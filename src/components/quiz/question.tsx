@@ -1,6 +1,4 @@
-import { useEffect, useState } from "preact/hooks";
-import { LoadingOutlined } from "@ant-design/icons";
-import { Flex, Spin } from "antd";
+import { useEffect } from "preact/hooks";
 import decodeHTML from "../helper/fix_entity";
 interface Props {
     question: string;

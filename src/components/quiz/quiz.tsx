@@ -3,10 +3,8 @@ import Answer from "./answer";
 import Question from "./question";
 import getDataFromAPI from "../../../service";
 // quiz = question + answer
-interface Props {
-    setStarted: (value: boolean) => void;
-}
-const Quiz = (props: Props) => {
+
+const Quiz = () => {
     const [data, setData] = useState<any>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [nextQuestion, setNextQuestion] = useState<boolean>(false);
